@@ -1,0 +1,161 @@
+/* -------- Fonts -------- */
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,700;1,700&display=swap");
+/* -------- Fonts -------- */
+/* -------- Reset -------- */
+/* -------- Reset Styles -------- */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 10px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/* -------- Reset Styles -------- */
+/* -------- Reset -------- */
+/* -------- Variables -------- */
+/* -------- Variables -------- */
+/* -------- Variables -------- */
+/* -------- Variables -------- */
+/* -------- General -------- */
+body {
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(0, 100%, 100%);
+  font-size: 1.5rem;
+  font-family: Overpass;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.text {
+  color: hsl(217, 12%, 63%);
+  line-height: 1.5;
+}
+
+/* -------- General -------- */
+/* -------- Rating -------- */
+.rating {
+  border-radius: 2.5rem;
+  background-image: linear-gradient(to bottom, #212933, #181e28);
+  padding: 4rem;
+  max-width: 42rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating__image {
+  margin-bottom: 3rem;
+}
+
+.rating__user-select {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 18%);
+  padding: 1.8rem 2rem;
+  border-radius: 2.5rem;
+  line-height: 0;
+  margin-bottom: 4rem;
+}
+
+.rating__title {
+  margin-bottom: 1rem;
+}
+
+.rating__text {
+  text-align: center;
+}
+
+/* -------- Rating -------- */

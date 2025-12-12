@@ -1,0 +1,80 @@
+/* -------- Fonts -------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,700;1,700&display=swap");
+
+/* -------- Fonts -------- */
+
+/* -------- Reset -------- */
+
+@import "reset";
+
+/* -------- Reset -------- */
+
+/* -------- Variables -------- */
+
+@import "variables";
+
+/* -------- Variables -------- */
+
+/* -------- General -------- */
+
+body {
+  background-color: $grey-950;
+  color: $white;
+  font-size: 1.5rem;
+  font-family: Overpass;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.text {
+  color: $grey-500;
+  line-height: 1.5;
+}
+
+/* -------- General -------- */
+
+/* -------- Rating -------- */
+
+.rating {
+  border-radius: 2.5rem;
+  background-image: linear-gradient(to bottom, #212933, #181e28);
+  padding: 4rem;
+  max-width: 42rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating__image {
+  margin-bottom: 3rem;
+}
+
+.rating__user-select {
+  color: $orange-500;
+  background-color: $grey-900;
+  padding: 1.8rem 2rem;
+  border-radius: 2.5rem;
+  line-height: 0;
+  margin-bottom: 4rem;
+}
+
+.rating__title {
+  margin-bottom: 1rem;
+}
+
+.rating__text {
+  text-align: center;
+}
+
+/* -------- Rating -------- */
