@@ -37,5 +37,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Nazar Pasechnyi / Portfolio](https://lackevil.github.io/Portfolio/)
+- LinkedIn - [@Nazar Pasechnyi](www.linkedin.com/in/nazar-pasechnyi)
 - Frontend Mentor - [@Lackevil](https://www.frontendmentor.io/profile/Lackevil)
