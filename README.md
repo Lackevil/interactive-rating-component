@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution](https://lackevil.github.io/Interactive-rating-component/)
-- Live Site URL: [live](https://lackevil.github.io/Interactive-rating-component/)
+- Live Site URL: [live](https://lackevil.github.io/interactive-rating-component/)
 
 ### Built with
 
